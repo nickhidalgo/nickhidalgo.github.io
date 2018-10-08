@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $(".btn1").click(function(){
-        $("p").fadeOut()
+    $("#hide").click(function(){
+        $("p").hide()
     });
-    $(".btn2").click(function(){
-        $("p").fadeIn();
+    $("#show").click(function(){
+        $("p").show();
     });
 });
