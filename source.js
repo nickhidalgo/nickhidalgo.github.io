@@ -4,5 +4,5 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $('div.toshow').fadeIn(2200);
+    $('div.toshow').show(2000);
 })
