@@ -3,3 +3,6 @@ $(document).ready(function(){
         $("p").toggle();
     });
 });
+$(document).ready(function(){
+    $('div.toshow').fadeIn(2200);
+})
