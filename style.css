@@ -32,6 +32,15 @@ a {
     color: darkgray;
     text-align: center;
 }
+.middle{
+    display: block;
+    background-color:whitesmoke;
+    max-width: 300px;
+    max-height: 250px;
+    border-radius: 10px;
+    color:rgb(94, 92, 92);
+    text-align:center;
+}
 
 button {
     background-color: #f4511e;
