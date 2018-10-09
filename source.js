@@ -3,6 +3,6 @@ $(document).ready(function(){
         $("p").toggle();
     });
 });
-$(document).ready(function(){
-    $('div.toshow').show(2000);
-})
+$(document).ready(function () {
+    $('div.hidden').fadeIn(1000).removeClass('hidden');
+});
