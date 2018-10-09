@@ -49,34 +49,24 @@
           div.hidden{
             display: none;
           }
-          .typewriter h2 {
-            overflow: hidden; /* Ensures the content is not revealed until the animation */
-            border-right: .15em solid orange; /* The typwriter cursor */
-            white-space: nowrap; /* Keeps the content on a single line */
-            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-            letter-spacing: .15em; /* Adjust as needed */
-            animation: 
-              typing 3.5s steps(40, end),
-              blink-caret .75s step-end infinite;
+          .anim-typewriter{
+            animation: typewriter 4s steps(44) 1s 1 normal both,
+                      blinkTextCursor 500ms steps(44) infinite normal;
           }
-
-          /* The typing effect */
-          @keyframes typing {
-            from { width: 0 }
-            to { width: 100% }
+          @keyframes typewriter{
+            from{width: 0;}
+            to{width: 24em;}
           }
-
-          /* The typewriter cursor effect */
-          @keyframes blink-caret {
-            from, to { border-color: transparent }
-            50% { border-color: orange; }
+          @keyframes blinkTextCursor{
+            from{border-right-color: rgba(255,255,255,.75);}
+            to{border-right-color: transparent;}
           }
         </style>
   </head>
   <body>
     <div class="hidden">
       <h1>Nick Hidalgo</h1>
-      <h2>Front-end web developer.</h2>
+      <h2 class="anim-typewriter">Front-end web developer.</h2>
       <br><br>
       <button>Social Media</button>
       <p>
