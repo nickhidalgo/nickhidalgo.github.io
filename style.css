@@ -1,4 +1,11 @@
+header{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 200px;
+    height: calc(100vh - 8em);
+    padding: 4em;
 
+}
 body {
     background-color: rgb(99, 96, 96);
     text-align: center;
@@ -21,32 +28,28 @@ p{
 
 }
 a {
-font-size: 14px;
-color: darkgray;
-text-align: center;
+    font-size: 14px;
+    color: darkgray;
+    text-align: center;
 }
 
 button {
-background-color: #f4511e;
-border: none;
-color: white;
-padding: 16px 32px;
-text-align: center;
-font-size: 16px;
-margin: 4px 2px;
-opacity: 0.6;
-transition: 0.3s;
-text-align: center;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-align: center;
 }
 button:hover 
 {opacity: 1}
 
 .hidden{
-    background-color: rgb(34, 34, 34);
-    text-align: center;
-    padding: 200px;
-    height: calc(100vh - 8em);
-    padding: 4em;
+    color:#eeee33;
 }
 div.hidden{
     display: none;
