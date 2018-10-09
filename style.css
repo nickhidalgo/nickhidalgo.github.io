@@ -1,5 +1,5 @@
 body {
-            background-color: black;
+            background-color: darkgrey;
             text-align: center;
             padding: 200px;
             color:#eeee33;
@@ -16,7 +16,7 @@ body {
           }
           p{
             text-align: center;
-            color:darkgray;
+            color:lightgray;
             display:none;
             
           }
