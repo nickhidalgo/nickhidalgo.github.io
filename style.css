@@ -32,7 +32,7 @@ a {
     color: darkgray;
     text-align: center;
 }
-.middle{
+#middle{
     display: block;
     background-color:whitesmoke;
     max-width: 300px;
