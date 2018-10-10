@@ -42,9 +42,9 @@ a {
 #middle{
     display: block;
     background-color:whitesmoke;
-    max-width: 300px;
-    max-height: 250px;
-    border-radius: 10px;
+    max-width: 600px;
+    max-height: 450px;
+    border-radius: 5px;
     color:rgb(36, 36, 36);
     text-align:center;
 }
