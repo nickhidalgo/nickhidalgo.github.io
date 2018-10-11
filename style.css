@@ -1,4 +1,4 @@
-.header{
+header{
     background-color: rgb(34, 34, 34);
     text-align: center;
     padding: 200px;
@@ -15,7 +15,7 @@ header{
     display: block;
 }
 body {
-    background-color: rgb(99, 96, 96);
+    background-color: rgb(245, 237, 237);
     text-align: center;
     padding: 200px;
     height: calc(100vh - 8em);
