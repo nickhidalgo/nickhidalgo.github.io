@@ -46,16 +46,7 @@ p{
     text-align: center;
 } */
 .middle{
-    
-    /*background-color:rgb(51, 50, 50);
-    /*max-width: 450px;
-    max-height: 300px;
-    /* border-radius: 5px; */
-    color:white;
-    text-align:center;
-    padding: 20%;
-    margin:10px;
-   
+    text-align:center; 
 }
 #projects{
     background-image: url(readyforit.png);
@@ -68,6 +59,8 @@ p{
     font-size: 30px;
     font-family: monospace;
     text-decoration: none;
+    padding: 20%;
+    margin:10px;
 
 }
 
