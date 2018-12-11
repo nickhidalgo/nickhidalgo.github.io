@@ -60,12 +60,8 @@ p{
 }
 .socials{
     background-color: #f4511e;
-    /* height:100px;
-    width: 600px; */
-    bottom:0;
-    right:0;
-    left:0;
-    top:0;
+    height:100%;
+    width: 100%;
     position: fixed;
     display:block;
     text-decoration: none;
