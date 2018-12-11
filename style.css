@@ -38,14 +38,10 @@ h3{
 p{
     text-align: center;
     color:lightgray;
-    display:none;
+    /* display:none; */
 
 }
-/* a {
-    font-size: 14px;
-    color: white;
-    text-align: center;
-} */
+
 
 .middle{
     background-image: url(readyforit.png);
@@ -65,12 +61,11 @@ p{
 .socials{
     background-color: #f4511e;
     background-size: cover;
-    color:whitesmoke;
+    color:white;
     font-size:16px;
     text-align:center;
     font-family: monospace;
 }
-
 
 button {
     background-color: #f4511e;
