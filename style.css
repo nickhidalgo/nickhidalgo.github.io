@@ -40,11 +40,11 @@ p{
     display:none;
 
 }
-a {
+/* a {
     font-size: 14px;
     color: white;
     text-align: center;
-}
+} */
 .middle{
     background-image: url(readyforit.png);
     height:200px;
