@@ -59,7 +59,16 @@ p{
     text-decoration: none;
     padding: 20%;
     margin:10px;
+    border-radius: 10px;
 
+}
+.socials{
+    background-color: #f4511e;
+    background-size: cover;
+    color:whitesmoke;
+    font-size:16px;
+    text-align:center;
+    font-family: monospace;
 }
 
 
@@ -85,6 +94,7 @@ button:hover
 }
 div.hidden{
     display: none;
+    background-size: cover;
 }
 .line-1{
     position: relative;
