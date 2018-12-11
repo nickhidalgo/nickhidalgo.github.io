@@ -60,8 +60,7 @@ p{
 }
 .socials{
     background-color: #f4511e;
-    background-size: cover;
-    height:50%;
+    height:100px;
     width: 600px;
     display:block;
     text-decoration: none;
