@@ -1,6 +1,5 @@
 header{
-    /* background-color: rgb(34, 34, 34); */
-    background-color: red;
+    background-color: rgb(34, 34, 34); 
     text-align: center;
     padding: 200px;
     height: calc(100vh - 8em);
