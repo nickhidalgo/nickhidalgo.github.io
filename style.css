@@ -46,6 +46,9 @@ a {
     text-align: center;
 }
 #middle{
+    background-image: url(readyforit.png);
+    height:600px;
+    width: 450px;
     display: block;
     background-color:rgb(51, 50, 50);
     max-width: 600px;
@@ -55,7 +58,7 @@ a {
     text-align:center;
     padding: 20%;
     margin:10px;
-    background-image: url(readyforit.png);
+   
 }
 
 button {
