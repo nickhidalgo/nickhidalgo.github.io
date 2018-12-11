@@ -60,8 +60,9 @@ p{
 }
 .socials{
     background-color: #f4511e;
-    height:100px;
-    width: 600px;
+    /* height:100px;
+    width: 600px; */
+    position: fixed;
     display:block;
     text-decoration: none;
     color:white;
