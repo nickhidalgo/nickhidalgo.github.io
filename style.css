@@ -42,7 +42,7 @@ p{
 }
 a {
     font-size: 14px;
-    color: darkgray;
+    color: white;
     text-align: center;
 }
 .middle{
@@ -60,6 +60,12 @@ a {
     padding: 20%;
     margin:10px;
    
+}
+.projects{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    
 }
 
 button {
