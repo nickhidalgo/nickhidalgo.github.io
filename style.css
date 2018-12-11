@@ -49,11 +49,7 @@ p{
     text-align:center; 
 }
 #projects{
-    background-image: url(readyforit.png);
-    height:100px;
-    width: 500px;
-    /*opacity:0.5;*/
-    display: block;
+    
     text-align: center;
     color:white;
     font-size: 30px;
@@ -63,7 +59,12 @@ p{
     margin:10px;
 
 }
-#projects:after{
+#projects:before{
+    background-image: url(readyforit.png);
+    height:100px;
+    width: 500px;
+    /*opacity:0.5;*/
+    display: block;
     opacity: 0.5;
 }
 
