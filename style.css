@@ -47,8 +47,8 @@ a {
 }
 .middle{
     background-image: url(readyforit.png);
-    height:300px;
-    width: 450px;
+    height:200px;
+    width: 400px;
     opacity:0.5;
     display: block;
     background-color:rgb(51, 50, 50);
