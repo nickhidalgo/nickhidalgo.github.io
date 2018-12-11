@@ -81,7 +81,7 @@ button:hover
 .hidden{
     background-color:  rgb(34, 34, 34);
     text-align: center;
-    float: right;
+    background-size: cover;
 }
 div.hidden{
     display: none;
