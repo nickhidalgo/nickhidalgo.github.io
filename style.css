@@ -45,10 +45,8 @@ p{
     color: white;
     text-align: center;
 } */
+
 .middle{
-    text-align:center; 
-}
-#projects{
     
     text-align: center;
     color:white;
@@ -59,7 +57,7 @@ p{
     margin:10px;
 
 }
-#projects:before{
+.middle:before{
     background-image: url(readyforit.png);
     height:100px;
     width: 500px;
