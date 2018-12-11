@@ -47,7 +47,10 @@ p{
 } */
 
 .middle{
-    
+    background-image: url(readyforit.png);
+    height:100px;
+    width: 500px;
+    display: block;
     text-align: center;
     color:white;
     font-size: 30px;
@@ -58,11 +61,9 @@ p{
 
 }
 .middle:before{
-    background-image: url(readyforit.png);
-    height:100px;
-    width: 500px;
+    
     /*opacity:0.5;*/
-    display: block;
+   
     opacity: 0.5;
 }
 
