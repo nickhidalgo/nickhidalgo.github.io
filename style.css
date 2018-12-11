@@ -59,12 +59,12 @@ p{
 
 }
 .socials{
-    background-color: #f4511e;
+    /* background-color: #f4511e;
     height:100%;
     width: 100%;
     top:0px;
     bottom:0px;
-    position: fixed;
+    position: fixed; */
     display:block;
     text-decoration: none;
     color:white;
