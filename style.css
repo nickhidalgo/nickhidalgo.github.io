@@ -63,10 +63,10 @@ p{
 }
 #projects{
     text-align: center;
-    color:red;
+    color:white;
     font-size: 30px;
     font-family: monospace;
-    opacity: 1;
+    text-decoration: none;
 
 }
 
