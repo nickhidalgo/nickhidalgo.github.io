@@ -13,6 +13,8 @@ header{
 
 body {
     text-align:center;
+    text-decoration: none;
+    color:white;
     background-color: rgb(34, 34, 34);
     margin:0;
     padding:0;
@@ -35,12 +37,14 @@ p{
 
 .middle{
     background-image: url(readyforit.png);
+    background-repeat: no-repeat;
+    background-size:cover;
     position:inherit;
     text-align: center;
     color:white;
     font-size: 30px;
     font-family: monospace;
-    text-decoration: none;
+    text-decoration: none !important;
     width: 1000px;
     margin:0 auto;
     padding-top:200px;
@@ -56,6 +60,7 @@ p{
     width: 1000px;
     margin: 0 auto;
     min-height:300px;
+    
 }
 
 button {
