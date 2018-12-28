@@ -39,7 +39,8 @@ p{
 
 .middle{
     background-image: url(rfi.png);
-    position:inherit;
+    position:absolute;
+    z-index:-1;
     text-align: center;
     color:white;
     font-size: 30px;
