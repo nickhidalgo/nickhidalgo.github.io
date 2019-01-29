@@ -54,6 +54,10 @@ p{
 }
 .socials{
     background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position:inherit;
     text-align:center;
     padding-top:200px;
