@@ -61,7 +61,7 @@ p{
     position:center;
     text-align:center;
     padding-top:200px;
-    width: 1000px;
+    min-width: 1000px;
     margin: 0 auto;
     min-height:300px; 
 }
