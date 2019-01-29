@@ -41,15 +41,15 @@ p{
     position:center;
     z-index:-1;
     text-align: center;
-    color:white;
+    color:rgb(85, 85, 85);
     font-size: 30px;
     font-family: monospace;
     text-decoration: none;
-    width: 500px;
-    margin:0 auto;
+    width: 800px;
+    margin:10px;
     padding-top:200px;
     padding-bottom:200px;
-    opacity:0.8;
+    opacity:0.5;
 
 }
 .socials{
@@ -61,7 +61,7 @@ p{
     position:center;
     text-align:center;
     padding-top:200px;
-    min-width: 1000px;
+    min-width: 1000px; /*fill edge*/
     margin: 0 auto;
     min-height:300px; 
 }
