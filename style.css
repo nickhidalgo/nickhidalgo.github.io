@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(34, 34, 34); 
+    background-color:black; 
     text-align: center;
     min-height: 200px;
     background-size:cover;
@@ -71,7 +71,7 @@ p{
     -o-background-size: cover;
     background-size: cover;
     min-width: 1000px;
-    min-height:1000px;
+    height:500px;
     margin: 0 auto;
     background-color:black;
     position: relative;
