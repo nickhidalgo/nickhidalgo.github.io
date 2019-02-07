@@ -33,7 +33,7 @@ h3{
 }
 p{
     text-align: center;
-    color:lightgray;
+    color:white;
 }
 
 
@@ -63,6 +63,7 @@ p{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color:white;
   }
 
 .middle{
