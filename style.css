@@ -5,58 +5,41 @@ header{
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
-    min-width: 1000px; /*fill edge*/
-    min-height: 200px;
     margin:0 auto;
-    position:relative;
-    padding-top:100px;
-    padding-bottom:100px;
+    position:relative;  
+    height: 400px;
+    color:white;
+    font-size: 24px;
+    padding:80px;
+}
+.blocktext{
+    text-align: center;
+    font-size:24px;
+    font-family: Arial;
+}
+.navbar {
+    background-color:rgb(11, 93, 104);
+    background-size: cover;
+    color:white;
+}
+.nav{
+    background-color:rgb(11, 93, 104);
+    background-size: cover;
+    color:white;
 }
 
 body {
     text-align:center;
     z-index:-1;
     text-decoration: none;
-    color:black;
     background-color:white;
     margin:0 auto;
-    padding:0;
+    
+    
+    
 }
 /*rgb(65, 124, 212)
 /*rgb(19, 16, 61)*/ 
-.middle{
-    background-color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color:black;
-    position: relative;
-    text-align:center;
-    
-    min-width: 1000px; /*fill edge*/
-    min-height:100px; 
-    margin: 0 auto;
-
-    
-}
-.about{
-    
-    background-color:rgb(241, 237, 237);
-    border-radius: 10px;
-    min-width:900px;
-    min-height:300px;
-    color:black;
-    font-size:30px;
-    text-align:left;
-    position: relative;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    padding-top:10px;
-    margin: 2em;
-    
-  }
-
 .work{
     background-color:#057067;
     -webkit-background-size: cover;
@@ -65,11 +48,9 @@ body {
     background-size: cover;
     position: relative;
     text-align: center;
-    padding-top:100px;
-    min-width: 1000px;
-    min-height:500px;
+    padding-top:50px;
+    height:500px;
     margin: 0 auto;
-    
     color: white;
     font-size: 20px;
     font-family: monospace;
@@ -78,33 +59,42 @@ body {
 .footer{
     background-color: #057067;
     color:white;
-    -webkit-background-size: cover;
+     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; 
     text-align: center;
     position: relative;
-    padding-top:10px;
-    min-width: 1000px; /*fill edge*/
+    padding-top:50px;
     margin: 0 auto;
-    min-height:50px; 
-    z-index: 2;
-    font-size:12px;
-    padding-bottom:10px;
+    height:200px; 
+    font-size: 12px;
+    font-family: arial;
+    padding-bottom:10px; 
+}
+
+.footer-logos{
+    margin:10px;
+}
+.footer-text{
+    margin:50px;
     
+
 }
 
 .work-text{
-    position:absolute;
-    top: 40%;
+    position: relative;
+    margin-top: 30px;
     left: 50%;
+    bottom:40%;
     transform: translate(-50%, -50%);
     color:black;
     text-align: center;
     z-index: 1;    
 }
 .logos{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top:50px;
 }
 a{
     text-decoration: none;
@@ -119,7 +109,10 @@ h1 {
 h3{
     color: white;
     overflow: hidden;
+    
+    
 }
+/* * { color:#fff; text-decoration: none;} */
 p{
     text-align: center;
     color:white;
@@ -160,19 +153,7 @@ div.hidden{
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);  
-     
 }
-/* .line-2{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid black;
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);     */
 
 .anim-typewriter{
     animation: typewriter 4s steps(44) 1s 1 normal both,
@@ -186,10 +167,5 @@ div.hidden{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
 }
-.line-2{
-    opacity: 0;
-    transition:500ms;
-}
-.line-2.animate{
-    opacity: 1;
-}
+
+
