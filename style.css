@@ -12,7 +12,7 @@ header{
     font-size: 24px;
     padding:80px;
 }
-.navbar{
+.navbar .navbar-light .bg-light{
     background-size: cover;
     color:black;
     height:50px;
