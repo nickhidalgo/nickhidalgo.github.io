@@ -33,6 +33,7 @@ head{
 }
 .navbar-default {
     background-color: #F8F8F8;
+    background-size: cover;
     border-color: #E7E7E7;
 }
 body {
