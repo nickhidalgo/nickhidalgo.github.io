@@ -10,7 +10,15 @@ header{
     height: 400px;
     color:white;
     font-size: 24px;
-    
+    padding:50px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+head{
+    padding:0px;
 }
 /* .navbar .navbar-light .bg-light{
     background-size: cover;
