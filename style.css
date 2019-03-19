@@ -14,6 +14,7 @@ header{
     color:white;
     font-size: 24px;
     padding: 70px;
+    width:100%;
   
 }
 .blocktext{
@@ -30,6 +31,7 @@ body {
     text-decoration: none;
     background-color:white;
     margin:0 auto;  
+    width:100%;
      
 }
 
@@ -47,6 +49,7 @@ body {
     color: white;
     font-size: 20px;
     font-family: monospace;
+    width:100%;
     
 }
 .footer{
@@ -64,6 +67,7 @@ body {
     font-size: 12px;
     font-family: arial;
     padding-bottom:10px; 
+    width:100%;
 }
 
 .footer-logos{
@@ -111,7 +115,7 @@ p{
     color:white;
 } 
 
-button {
+/* button {
     background-color: #f4511e;
     border: none;
     color: white;
@@ -122,7 +126,7 @@ button {
     opacity: 0.6;
     transition: 0.3s;
     text-align: center;
-}
+} */
 button:hover 
 {opacity: 1}
 
