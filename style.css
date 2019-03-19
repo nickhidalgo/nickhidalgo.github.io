@@ -10,15 +10,8 @@ header{
     height: 400px;
     color:white;
     font-size: 24px;
-    padding:50px;
+    padding-top:50%;
 }
-
-/* .navbar .navbar-light .bg-light{
-    background-size: cover;
-    color:black;
-    height:50px;
-    background-color: white;
-} */
 .blocktext{
     text-align: center;
     font-size:24px;
@@ -37,8 +30,7 @@ body {
     margin:0 auto;  
      
 }
-/*rgb(65, 124, 212)
-/*rgb(19, 16, 61)*/ 
+
 .work{
     background-color:#057067;
     -webkit-background-size: cover;
