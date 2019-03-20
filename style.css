@@ -35,10 +35,7 @@ body {
 
 .work{
     background-color:#D4A656;/*rgb(81, 141, 231)*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    
     position: relative;
     text-align: center;
     padding-top:50px;
