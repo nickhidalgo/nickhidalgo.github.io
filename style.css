@@ -109,7 +109,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     padding:0px;
-    margin: 0px;
+    margin: auto;
 }
 
 a{
