@@ -10,6 +10,13 @@ $(document).ready(() => {
 	$('.selected-element').addClass('animate');
 });
 
+
+function myFunction() {
+    var element = document.header;
+    element.classList.toggle("dark-mode");
+ }
+
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("nav");
