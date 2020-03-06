@@ -4,7 +4,7 @@ html{
     max-width: auto;
 }
 header{
-    background-color:rgb(95, 85, 65);
+    background-color:rgb(2, 81, 112);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,36 +12,42 @@ header{
     text-align: center;
     margin:0 auto;
     position:relative;  
-    height: 350px;
+    height: 100%;
     color:white;
     font-size: 24px;
     padding: 70px;
-    width: 100%;   
+    width: 100%;  
+    font-family: 'sans-serif'; 
+    
 }
 
 .blocktext{
     text-align: center;
     font-size:22px;
-    font-family: Arial;
+    font-family: 'sans-serif';
+    
     
 }
-.navbar .navbar-fixed-top::after {
-    filter:blur(8px);
+.navbar .navbar-fixed-top{
+    
 }
-body {
+.navbar-text{
+    font-size: 10px;
+    color:white;
+}
+body { 
     text-align:center;
-    z-index:-1;
+    z-index:1;
     text-decoration: none;
     background-color:white;
     margin:0 auto;  
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;
+    font-family: 'sans-serif';
     
 }
-.container-fluid{
 
-}
 .dark-mode {
     background-color:black;
     color: white;
@@ -51,8 +57,9 @@ body {
 .logos{
     position: relative;
     padding-bottom: 50px;
-    padding-top:50px;
+    padding-top:175px;
     margin: 0px;
+    height: 600px;
 }
 .logos-bg{
     background: url(images/nyc.jpg) no-repeat center center fixed;
@@ -63,11 +70,12 @@ body {
     padding:0px;
     margin: auto;
     width: 100%;
+    z-index: 1;
+    box-shadow: 0 2rem 4rem #000;
 }
 
 .work{
     background-color:rgb(0, 0, 0);
-    
     position: relative;
     text-align: center;
     padding-top:50px;
@@ -77,6 +85,7 @@ body {
     font-size: 20px;
     font-family: monospace;
     width: 100%;
+    
 
 }
 .work-img{
@@ -84,9 +93,7 @@ body {
     height:200px;
     opacity:0.5;
     border-radius:10px;
-    margin:1opx;
-    
-    
+    margin:10px;  
     
 }
 .work-text{
@@ -101,14 +108,15 @@ body {
 }
 
 .footer{
-    background-color: rgb(0, 0, 0);
+    background-image: url(images/nycskyline.jpg);
     color:white;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
     text-align: center;
-    position: relative;
+    position: sticky;
+    bottom: 0;
     padding-top:60px;
     margin-right: 20px;
     margin: 0 auto;
@@ -117,15 +125,18 @@ body {
     font-family: arial;
     padding-bottom:10px; 
     width: 100%;
+    height:500px;
+    z-index: -1;
     
 }
 
 .footer-logos{
-    margin:10px;
-    
+    margin:10px;  
+    position: sticky;
 }
 .footer-text{
     margin:50px; 
+    position: sticky;
 }
 
 a{
