@@ -69,10 +69,10 @@ header{
     z-index: 2;
 }
 
-/* .navbar-hide {
+ .navbar-hide {
     pointer-events: none;
     opacity: 0;
-} */
+} 
 body { 
     text-align:center;
     z-index:1;
