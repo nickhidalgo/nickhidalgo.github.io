@@ -5,7 +5,6 @@ html{
 }
 header{
     background-image: linear-gradient(45deg, #3f05dd, #10075f);
-	
     /* background-color:rgb(2, 81, 112); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -25,13 +24,16 @@ header{
 }
 .blocktext{
     text-align: center;
+    min-width: 75%;
     margin: 150px;
+
     font-size:22px;
     font-family: 'sans-serif';
   
 }
 .navbar-text{
     color:white;
+    float: left;
 }
 .navbar {
     opacity: 1;
