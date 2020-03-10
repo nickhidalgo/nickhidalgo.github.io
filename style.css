@@ -129,7 +129,8 @@ body {
     position: relative;
     padding-bottom: 100px;
     padding-top:250px;
-    margin: 0px;
+    margin: 10px;
+    min-width: 70%;
     height: 800px;
     z-index: 1;
     visibility: hidden;
