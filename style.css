@@ -17,7 +17,7 @@ header{
     font-size: 24px;
     padding: 70px;
     width: 100%;  
-    min-width: 100%;
+    min-width: 50%;
     font-family: 'sans-serif'; 
     z-index: 0;
     overflow-x: hidden; 
