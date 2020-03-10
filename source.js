@@ -69,7 +69,7 @@ function showWorkText(el) {
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();        
-        if(topOfWindow + windowHeight - 400 > thisPos ) {
+        if(topOfWindow + windowHeight - 300 > thisPos ) {
             $(this).addClass("fadeIn");
         }
     });
