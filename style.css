@@ -174,7 +174,7 @@ logos.section { height: 100vh; }
     /* transform: skewY(11deg); */
     position: relative;
     text-align: center;
-    float: left;
+    /* float: left; */
     padding-top:50px;
     height:800px;
     margin: 0 auto;
