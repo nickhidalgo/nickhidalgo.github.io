@@ -1,7 +1,4 @@
 
-// function myFunction(){
-//     document.footer.style.backgroundColor="black";  
-//  }
  // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
 window.onscroll = function() {scrollFunction()};
 
@@ -54,14 +51,49 @@ function showImages(el) {
     });
 }
 
+function showText(el) {
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();        
+        if(topOfWindow + windowHeight - 500 > thisPos ) {
+            $(this).addClass("fadeIn");
+        }
+    });
+}
+
+function showWorkText(el) {
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();        
+        if(topOfWindow + windowHeight - 400 > thisPos ) {
+            $(this).addClass("fadeIn");
+        }
+    });
+}
+
 // if the image in the window of browser when the page is loaded, show that image
 $(document).ready(function(){
         showImages('.logos');
 });
-
+$(document).ready(function(){
+    showText('.logo-text');
+});
+$(document).ready(function(){
+    showWorkText('.work-title');
+});
 // if the image in the window of browser when scrolling the page, show that image
 $(window).scroll(function() {
         showImages('.logos');
+});
+$(window).scroll(function() {
+    showText('.logo-text');
+});
+$(window).scroll(function() {
+    showWorkText('.work-title');
 });
 
 // $(window).scroll(function() {
@@ -69,4 +101,23 @@ $(window).scroll(function() {
 //     'opacity' : 1-(($(this).scrollTop())/500)
 //     });          
 // });
+
+// const element =  document.querySelector('.my-element')
+// element.classList.add('animated', 'bounceOutLeft')
+
+// element.addEventListener('animationend', function() { doSomething() })
+
+// function animateCSS(element, animationName, callback) {
+//     const node = document.querySelector(element)
+//     node.classList.add('animated', animationName)
+
+//     function handleAnimationEnd() {
+//         node.classList.remove('animated', animationName)
+//         node.removeEventListener('animationend', handleAnimationEnd)
+
+//         if (typeof callback === 'function') callback()
+//     }
+
+//     node.addEventListener('animationend', handleAnimationEnd)
+// }
  
