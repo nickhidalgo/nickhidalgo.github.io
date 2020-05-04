@@ -1,16 +1,22 @@
 
- // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
-window.onscroll = function() {scrollFunction()};
+
+
+function scrollWin() {
+    window.scrollTo(0, 700);
+}
+
+// When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar navbar-fixed-top").style.top = "0";
-  } else {
-    document.getElementById("navbar navbar-fixed-top").style.top = "-50px";
-  }
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar navbar-fixed-top").style.top = "0";
+    } else {
+        document.getElementById("navbar navbar-fixed-top").style.top = "-50px";
+    }
 }
 // scroll functions
-$(window).scroll(function(e) {
+$(window).scroll(function (e) {
 
     // add/remove class to navbar when scrolling to hide/show
     var scroll = $(window).scrollTop();
@@ -22,77 +28,77 @@ $(window).scroll(function(e) {
 
 });
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementsByClassName("navbar-text").style.top = "0";
-  } else {
-    document.getElementsByClassName("navbar-text").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementsByClassName("navbar-text").style.top = "0";
+    } else {
+        document.getElementsByClassName("navbar-text").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
 }
 
 
 function showImages(el) {
-    var windowHeight = jQuery( window ).height();
-    $(el).each(function(){
+    var windowHeight = jQuery(window).height();
+    $(el).each(function () {
         var thisPos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();        
-        if(topOfWindow + windowHeight - 500 > thisPos ) {
+        var topOfWindow = $(window).scrollTop();
+        if (topOfWindow + windowHeight - 500 > thisPos) {
             $(this).addClass("fadeIn");
         }
-         
+
         // if($(window).scrollTop() + $(window).height() > $(document).height() - 300){
         //     $(this).addClass("fadeOut");
         // }
-        
-        
+
+
     });
 }
 
 function showText(el) {
-    var windowHeight = jQuery( window ).height();
-    $(el).each(function(){
+    var windowHeight = jQuery(window).height();
+    $(el).each(function () {
         var thisPos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();        
-        if(topOfWindow + windowHeight - 500 > thisPos ) {
+        var topOfWindow = $(window).scrollTop();
+        if (topOfWindow + windowHeight - 500 > thisPos) {
             $(this).addClass("fadeIn");
         }
     });
 }
 
 function showWorkText(el) {
-    var windowHeight = jQuery( window ).height();
-    $(el).each(function(){
+    var windowHeight = jQuery(window).height();
+    $(el).each(function () {
         var thisPos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();        
-        if(topOfWindow + windowHeight - 300 > thisPos ) {
+        var topOfWindow = $(window).scrollTop();
+        if (topOfWindow + windowHeight - 300 > thisPos) {
             $(this).addClass("fadeIn");
         }
     });
 }
 
 // if the image in the window of browser when the page is loaded, show that image
-$(document).ready(function(){
-        showImages('.logos');
+$(document).ready(function () {
+    showImages('.logos');
 });
-$(document).ready(function(){
+$(document).ready(function () {
     showText('.logo-text');
 });
-$(document).ready(function(){
+$(document).ready(function () {
     showWorkText('.work-title');
 });
 // if the image in the window of browser when scrolling the page, show that image
-$(window).scroll(function() {
-        showImages('.logos');
+$(window).scroll(function () {
+    showImages('.logos');
 });
-$(window).scroll(function() {
+$(window).scroll(function () {
     showText('.logo-text');
 });
-$(window).scroll(function() {
+$(window).scroll(function () {
     showWorkText('.work-title');
 });
 
@@ -120,4 +126,4 @@ $(window).scroll(function() {
 
 //     node.addEventListener('animationend', handleAnimationEnd)
 // }
- 
+

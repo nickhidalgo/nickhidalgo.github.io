@@ -3,6 +3,7 @@ html{
     width:100%;
     max-width: auto;
     text-rendering:optimizeLegibility;
+    scroll-behavior: smooth;
 }
 header{
     background-image: linear-gradient(100deg, #0c0436, #2e02a7);
