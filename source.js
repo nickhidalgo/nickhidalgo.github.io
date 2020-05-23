@@ -1,9 +1,10 @@
 
-
-
 function scrollWin() {
     window.scrollTo(0, 700);
 }
+
+
+
 
 // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
 window.onscroll = function () { scrollFunction() };
@@ -63,7 +64,7 @@ function showText(el) {
         var thisPos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
-        if (topOfWindow + windowHeight - 500 > thisPos) {
+        if (topOfWindow + windowHeight - 400 > thisPos) {
             $(this).addClass("fadeIn");
         }
     });
@@ -82,21 +83,21 @@ function showWorkText(el) {
 }
 
 // if the image in the window of browser when the page is loaded, show that image
+// $(document).ready(function () {
+//     showImages('.middle');
+// });
 $(document).ready(function () {
-    showImages('.logos');
-});
-$(document).ready(function () {
-    showText('.logo-text');
+    showText('.about');
 });
 $(document).ready(function () {
     showWorkText('.work-title');
 });
 // if the image in the window of browser when scrolling the page, show that image
+// $(window).scroll(function () {
+//     showImages('.middle');
+// });
 $(window).scroll(function () {
-    showImages('.logos');
-});
-$(window).scroll(function () {
-    showText('.logo-text');
+    showText('.about');
 });
 $(window).scroll(function () {
     showWorkText('.work-title');
