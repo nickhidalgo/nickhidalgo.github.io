@@ -144,7 +144,7 @@ body {
     font-family: 'Roboto'; 
     overflow-x: hidden; 
     text-rendering:optimizeLegibility;
-    scroll-behavior: smooth;
+    
 }
 /* .middle{
     background-image: url(images/code.jpg);
