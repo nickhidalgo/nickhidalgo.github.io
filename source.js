@@ -1,7 +1,12 @@
 
 function scrollWin() {
-    window.scrollTo(0, 700);
+    window.scrollTo({
+        top: 0,
+        left: 700,
+        behavior: 'smooth'
+    });
 }
+
 
 
 
