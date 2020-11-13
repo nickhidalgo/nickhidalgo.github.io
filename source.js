@@ -1,6 +1,6 @@
 
 function scrollWin() {
-    window.scrollTo({ top: 0, bottom: 700, behavior: "smooth" })
+    window.scrollTo(0, 700, "smooth")
     //     left: 0,
     //     top: 700,
     //     behavior: 'smooth'
