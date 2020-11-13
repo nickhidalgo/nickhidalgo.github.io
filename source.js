@@ -1,8 +1,8 @@
 
 function scrollWin() {
     window.scrollTo({
-        top: 0,
-        left: 700,
+        left: 0,
+        top: 700,
         behavior: 'smooth'
     });
 }
