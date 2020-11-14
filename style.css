@@ -207,7 +207,8 @@ body {
 }
 .about{ 
     color:white;
-    font-size: 3vw;
+    /* font-size: 3vw; */
+    font-size:24px;
     float:right;
     margin: 30px;
     height: 100%;
