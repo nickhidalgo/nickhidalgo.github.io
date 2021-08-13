@@ -1,3 +1,3 @@
 # Portfolio
 My Tech Portfolio
-https://nickcancode.github.io/Portfolio/
+https://eatandcode.github.io
