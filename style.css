@@ -24,6 +24,8 @@ header{
     clear:none;
     /* box-shadow: 0 2rem 4rem #000;  */ 
 }
+
+
 .header-bg{
     background-image: url(images/nyc3.jpg);
     -webkit-background-size: cover;
@@ -237,8 +239,8 @@ body {
     100%{opacity:0}
 }
 .work{
-    background-color:black;
-    background-image: url(images/saxon.jpg);
+    background-color: black;
+
     /* box-shadow: 0 2rem 4rem #000; */
     /* transform: skewY(11deg); */
     position: relative;
@@ -264,7 +266,6 @@ body {
     margin:10px; 
     display: inline-block;
     position:sticky;
-   
     border-radius:10px;
     
     
@@ -282,10 +283,11 @@ body {
       
 }
 .work-title{
+    
     font-family: Roboto;
     font-size: 4vw;
-    float: left;
-    text-align: left;
+    float: center;
+    text-align: center;
     margin: 5px;
     padding:5px;
     visibility: hidden; 
