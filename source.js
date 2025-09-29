@@ -133,3 +133,20 @@ $(window).scroll(function () {
 //     node.addEventListener('animationend', handleAnimationEnd)
 // }
 
+// 1. Get a reference to the list container
+const listContainer = document.getElementById('myList');
+
+// 2. Define the data for your list (e.g., an array)
+const items = ['Apple', 'Banana', 'Orange', 'Grape'];
+
+// 3. Iterate through the data and create list items
+items.forEach(itemText => {
+    // Create a new list item element
+    const listItem = document.createElement('li');
+
+    // Set the text content of the list item
+    listItem.textContent = itemText;
+
+    // Append the list item to the list container
+    listContainer.appendChild(listItem);
+});
